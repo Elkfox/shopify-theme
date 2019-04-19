@@ -1,0 +1,54 @@
+/**
+* Shopify error feedback
+*
+* Requires Starter-Theme https://github.com/Shopify/starter-theme
+**/
+
+.errors ul {
+  padding: 2rem;
+  list-style: none;
+  width: 100%;
+
+  li {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: $color-error-bg;
+    border: 1px solid $color-error;
+    color: $color-error;
+
+    &:not(:first-of-type) {
+      border-top: none;
+    }
+
+    &:not(:last-of-type) {
+      border-bottom: none;
+    }
+  }
+}
+
+/**
+* Shopify success feedback
+**/
+
+.form-success {
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: $color-success-bg;
+  border: 1px solid $color-success;
+  color: $color-success;
+}
+
+/**
+* RTE modifications
+**/
+
+.rte table {
+  table-layout: initial;
+  overflow: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+
+  td {
+    padding: 1rem;
+  }
+}
