@@ -1,7 +1,7 @@
 /**
  * Responsive video iframes
  *
- * Usage: import '../tools/responsive-videos';
+ * Usage: import '@elkfox/shopify-theme/scripts/responsive-videos';
  */
 
 function responsiveVideos() {

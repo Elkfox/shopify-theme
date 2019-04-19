@@ -1,0 +1,27 @@
+{
+  "name": "@elkfox/shopify-theme",
+  "version": "0.0.1",
+  "description": "A set of resources for extending Shopify's Slate v1 Starter Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elkfox/shopify-theme.git"
+  },
+  "keywords": [
+    "shopify",
+    "theme",
+    "cart",
+    "grid",
+    "tools",
+    "shop"
+  ],
+  "author": "Cam Gould <npm@elkfox.com> (https://elkfox.com)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Elkfox/shopify-theme/issues"
+  },
+  "homepage": "https://github.com/Elkfox/shopify-theme#readme"
+}
