@@ -1,12 +1,16 @@
 /**
  * Containers
  *
+ * Requires:
+ * - Starter-Theme https://github.com/Shopify/starter-theme
+ *
  * Accepts:
  * - $max-width: {String} Grid width variable (list found in variables.scss)
  * - $gutter: {String} rem, px, or other unit value/s
  *
  * Usage:
- * Inlcude in your theme.scss: @import '~@elkfox/shopify-theme/styles/grid.scss';
+ * - Inlcude in your theme.scss:
+ *     @import '~@elkfox/shopify-theme/styles/grid.scss';
  *
  * .selector {
  *   @include container($grid-large);

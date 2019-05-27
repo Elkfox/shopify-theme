@@ -1,11 +1,13 @@
 /**
-* Shopify error feedback
-*
-* Requires Starter-Theme https://github.com/Shopify/starter-theme
-*
-* Usage:
-* Inlcude in your theme.scss: @import '~@elkfox/shopify-theme/styles/grid.scss';
-**/
+ * Shopify error feedback
+ *
+ * Requires:
+ * - Starter-Theme https://github.com/Shopify/starter-theme
+ *
+ * Usage:
+ * - Inlcude in your theme.scss:
+ *     @import '~@elkfox/shopify-theme/styles/grid.scss';
+ */
 
 .errors ul {
   padding: 2rem;
