@@ -1,6 +1,6 @@
 {
   "name": "@elkfox/shopify-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A set of resources for extending Shopify's Slate v1 Starter Theme",
   "main": "index.js",
   "scripts": {
