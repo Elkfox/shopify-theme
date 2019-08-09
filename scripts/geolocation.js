@@ -9,7 +9,7 @@
  *   });
  */
 
-export function getGeoLocation() {
+export function getGeoLocation(callback) {
   const xhr = new XMLHttpRequest;
 
   xhr.open('GET', '//geo.elkfox.net/json/');
