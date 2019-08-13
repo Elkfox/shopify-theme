@@ -3,7 +3,7 @@
  * -----------------------------------------------------------------------------
  * Usage:
  *   import {cookieCreate} from '@elkfox/shopify-theme/scripts/cookies';
- *   const someCookie = cookies.create('test_cookie', 'test_value', 30);
+ *   const someCookie = cookieCreate('test_cookie', 'test_value', 30);
  *   someCookie();
  */
 
