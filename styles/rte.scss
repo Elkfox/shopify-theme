@@ -1,0 +1,32 @@
+.rte {
+  margin: 0;
+
+  img {
+    height: auto;
+  }
+
+  table {
+    table-layout: fixed;
+  }
+
+  ul,
+  ol {
+    margin: 0 0 ($grid-gutter / 2) $grid-gutter;
+  }
+
+  strong {
+    font-weight: $font-body-bold-weight;
+  }
+}
+
+// RTE tables
+.rte table {
+  table-layout: initial;
+  overflow: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+
+  td {
+    padding: 1rem;
+  }
+}
