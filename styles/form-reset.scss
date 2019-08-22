@@ -1,0 +1,37 @@
+form {
+  margin: 0;
+}
+
+a,
+area,
+button,
+[role='button'],
+input,
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}
+
+input,
+textarea,
+select,
+button {
+  border-radius: 0;
+  max-width: 100%;
+
+  &[disabled] {
+    cursor: default;
+  }
+}
+
+button,
+input[type='submit'],
+label[for] {
+  cursor: pointer;
+}
+
+select::-ms-expand {
+  display: none;
+}
