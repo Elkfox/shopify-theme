@@ -1,6 +1,6 @@
 {
   "name": "@elkfox/shopify-theme",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A set of resources for extending Shopify's Slate v1 Starter Theme",
   "author": "Cam Gould <npm@elkfox.com> (https://elkfox.com)",
   "license": "MPL-2.0",
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Elkfox/shopify-theme.git"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
   },
   "keywords": [
     "shopify",
