@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Getting started](README.md)
+* [Shopify Theme](README.md)
+* [Getting started](getting-started.md)
 
