@@ -5,4 +5,3 @@ Elkfox's 'Shopify Theme' is a series of assets for extending Shopify theme build
 ## Links
 
 [https://www.npmjs.com/package/@elkfox/shopify-theme](https://www.npmjs.com/package/@elkfox/shopify-theme)
-

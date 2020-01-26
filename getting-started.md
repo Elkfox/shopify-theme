@@ -7,6 +7,3 @@ We recommend using Yarn with your Slate project.
 ```text
 $ yarn add @elkfox/shopify-theme
 ```
-
-## 
-
