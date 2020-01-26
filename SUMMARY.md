@@ -6,3 +6,7 @@
 
 * [Getting started](shopify-theme/getting-started.md)
 
+## Sass Library
+
+* [Getting started](sass-library/getting-started.md)
+
