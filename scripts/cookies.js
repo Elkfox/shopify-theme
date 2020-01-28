@@ -13,8 +13,8 @@ export function cookieTest(
   ) {
   if (window.navigator.cookieEnabled) {
     document.documentElement.className = document.documentElement.className.replace(
-      'supports-no-cookies',
-      'supports-cookies',
+      noCookiesSelector,
+      cookiesSelector,
     );
   }
 }
