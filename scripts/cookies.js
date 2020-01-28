@@ -7,7 +7,10 @@
  *   someCookie();
  */
 
-export function cookieTest() {
+export function cookieTest(
+    noCookiesSelector = 'supports-no-cookies',
+    cookiesSelector = 'supports-cookies'
+  ) {
   if (window.navigator.cookieEnabled) {
     document.documentElement.className = document.documentElement.className.replace(
       'supports-no-cookies',
