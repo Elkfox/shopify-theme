@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+exclude:
+  - book/
+
+# Meta =======================================================================
+title: @elkfox/shopify-theme
+description: 🛠 A collection of Javascript libraries and other modular tools for extending Shopify theme builds
