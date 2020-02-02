@@ -9,7 +9,7 @@ import fetch from 'node-fetch';
  * Usage:
  *   import {getProduct} from '@elkfox/shopify-theme/scripts/product';
  *
- *   getProduct();
+ *   getProduct(productHandle);
  *
  *   // Then listen for the event, project-wide
  *   document.addEventListener('product:get', (event) => {

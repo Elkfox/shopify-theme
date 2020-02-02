@@ -14,7 +14,7 @@
  *  </label>
  *
  *  const quantityInputTools = new quantityInputs({
- *    quantityWrapper: selectors.quantityWrapper,
+ *    quantityWrapper: '#quantityWrapper',
  *  });
  *
  *  quantityInputTools();

@@ -8,8 +8,8 @@
  */
 
 export function cookieTest(
-    noCookiesSelector = 'supports-no-cookies',
-    cookiesSelector = 'supports-cookies'
+    noCookiesSelector = 'no-cookies',
+    cookiesSelector = 'cookies'
   ) {
   if (window.navigator.cookieEnabled) {
     document.documentElement.className = document.documentElement.className.replace(
