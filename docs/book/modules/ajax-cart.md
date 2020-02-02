@@ -16,7 +16,7 @@ import {getCart} from '@elkfox/shopify-theme/scripts/cart';
 getCart();
 ```
 
-**Event listener**
+#### Event listener
 
 You can also listen for the getCart event throughout your project.
 
@@ -42,7 +42,7 @@ addItem(item, (result) => {
 });
 ```
 
-**Event listener**
+#### Event listener
 
 ```javascript
  document.addEventListener('cart:added', (event) => {
@@ -64,7 +64,7 @@ updateCart(data, (result) => {
 });
 ```
 
-**Event listener**
+#### Event listener
 
 ```javascript
 document.addEventListener('cart:update', (event) => {
@@ -86,7 +86,7 @@ Requires variant `id` or line index, and `quantity`
  });
 ```
 
-**Event listener**
+#### Event listener
 
 ```javascript
  document.addEventListener('cart:change', (event) => {
@@ -102,7 +102,7 @@ Clears all line items, but **not** cart atrributes or notes.
 clearItems();
 ```
 
-**Event listener**
+#### Event listener
 
 ```javascript
 document.addEventListener('cart:clear', (event) => {
@@ -128,11 +128,10 @@ const address = {
 getShippingRates(address);
 ```
 
-**Event listener**
+#### Event listener
 
 ```javascript
 document.addEventListener('cart:get:rates', (event) => {
   // console.log(event.detail.json);
 });
 ```
-
