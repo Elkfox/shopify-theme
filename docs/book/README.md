@@ -1,3 +1,7 @@
+---
+description: '@elkfox/shopify-theme'
+---
+
 # shopify-theme
 
 Elkfox's 'Shopify Theme' is a series of tools and assets for extending Shopify theme builds. 'Shopify Theme' superceeds the 'Concrete Theme Framework' and its precursor, the original 'Shopify Theme Framework'.
@@ -13,3 +17,4 @@ We recommend using Yarn:
 ```bash
 $ yarn add @elkfox/shopify-theme
 ```
+
