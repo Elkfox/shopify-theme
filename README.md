@@ -4,13 +4,4 @@ Elkfox's 'Shopify Theme' is a series of tools and assets for extending Shopify t
 
 Tools can be cherrypicked as needed.
 
-## Getting started
-
-'Shopify Theme' is designed to be used with Slate, but could just as easily also be used with other NPM based workflows.
-
-We recommend using Yarn:
-
-```bash
-$ yarn add @elkfox/shopify-theme
-```
-
+[📒 View the docs](https://shopify-theme.elkfox.io)
