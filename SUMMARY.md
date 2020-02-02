@@ -9,3 +9,7 @@
 * [Cookies](modules/cookies.md)
 * [Quantity inputs](modules/quantity-inputs.md)
 
+## Links
+
+* [Github](https://github.com/Elkfox/shopify-theme)
+
