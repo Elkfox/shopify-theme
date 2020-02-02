@@ -12,3 +12,4 @@
 ## Links
 
 * [Github](https://github.com/Elkfox/shopify-theme)
+

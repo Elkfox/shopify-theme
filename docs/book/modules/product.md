@@ -2,13 +2,15 @@
 
 Fetch any product as a JSON object.
 
+## Usage
+
 ```javascript
 import {getProduct} from '@elkfox/shopify-theme/scripts/product';
 
 getProduct('red-rain-coat');
 ```
 
-#### Event listener
+## Event listener
 
 You can listen for when and what the API returns.
 
@@ -18,7 +20,7 @@ document.addEventListener('product:get', (event) => {
 });
 ```
 
-#### Example response
+## Example response
 
 ```javascript
 {
@@ -114,3 +116,4 @@ document.addEventListener('product:get', (event) => {
   "url": "/products/red-rain-coat"
 }
 ```
+
