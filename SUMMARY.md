@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Shopify Theme](README.md)
+* [shopify-theme](README.md)
 
 ## Modules
 
