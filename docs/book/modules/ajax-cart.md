@@ -1,6 +1,6 @@
 # Ajax Cart
 
-The Ajax Cart module is a wrapper for the [Shopify Ajax API](https://help.shopify.com/en/themes/development/getting-started/using-ajax-api?ref=elkfox).
+The Ajax Cart module is a wrapper for the [Shopify Ajax API](https://shopify.dev/docs/ajax-api/reference).
 
 **getCart**, **addItem**, **updateCart**, **updateItem**, **clearItems** and **getShippingRates** methods are available using this module. An additional getProduct method is currently available seperately via the [Product](product.md) module.
 
@@ -16,7 +16,7 @@ import {getCart} from '@elkfox/shopify-theme/scripts/cart';
 getCart();
 ```
 
-#### Event listener
+**Event listener**
 
 You can also listen for the getCart event throughout your project.
 
@@ -42,7 +42,7 @@ addItem(item, (result) => {
 });
 ```
 
-#### Event listener
+**Event listener**
 
 ```javascript
  document.addEventListener('cart:added', (event) => {
@@ -64,7 +64,7 @@ updateCart(data, (result) => {
 });
 ```
 
-#### Event listener
+**Event listener**
 
 ```javascript
 document.addEventListener('cart:update', (event) => {
@@ -86,7 +86,7 @@ Requires variant `id` or line index, and `quantity`
  });
 ```
 
-#### Event listener
+**Event listener**
 
 ```javascript
  document.addEventListener('cart:change', (event) => {
@@ -102,7 +102,7 @@ Clears all line items, but **not** cart atrributes or notes.
 clearItems();
 ```
 
-#### Event listener
+**Event listener**
 
 ```javascript
 document.addEventListener('cart:clear', (event) => {
@@ -128,10 +128,11 @@ const address = {
 getShippingRates(address);
 ```
 
-#### Event listener
+**Event listener**
 
 ```javascript
 document.addEventListener('cart:get:rates', (event) => {
   // console.log(event.detail.json);
 });
 ```
+
