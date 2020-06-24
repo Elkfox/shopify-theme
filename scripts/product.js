@@ -1,6 +1,3 @@
-// Fetch is not supported by IE so we use a polyfill for now
-import fetch from 'node-fetch';
-
 /**
  * Get product
  * ------------------------------------------------------------------------------
@@ -16,6 +13,9 @@ import fetch from 'node-fetch';
  *     console.log(event.detail.json);
  *   });
  */
+
+// Fetch is not supported by IE so we use a polyfill for now
+import fetch from 'node-fetch';
 
 export function getProduct(productHandle) {
   return fetch(`/products/${productHandle}.js`, {

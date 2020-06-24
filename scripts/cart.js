@@ -23,13 +23,11 @@ export function getCart(cart) {
   }).then((response) => {
     return response.json();
   }).then((json) => {
-    const cartEvent = new window.CustomEvent('cart:get', {
+    document.dispatchEvent(new window.CustomEvent('cart:get', {
       detail: {
         json,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return cart;
   });
 }
@@ -67,22 +65,18 @@ export function addItem(data) {
   }).then((response) => {
     return response.json();
   }).then((json) => {
-    const cartEvent = new window.CustomEvent('cart:added', {
+    document.dispatchEvent(new window.CustomEvent('cart:added', {
       detail: {
         json,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return json;
   }).catch((error) => {
-    const cartEvent = new window.CustomEvent('cart:error', {
+    document.dispatchEvent(new window.CustomEvent('cart:error', {
       detail: {
         error,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return error;
   });
 }
@@ -119,22 +113,18 @@ export function updateCart(data) {
   }).then((response) => {
     return response.json();
   }).then((json) => {
-    const cartEvent = new window.CustomEvent('cart:update', {
+    document.dispatchEvent(new window.CustomEvent('cart:update', {
       detail: {
         json,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return json;
   }).catch((error) => {
-    const cartEvent = new window.CustomEvent('cart:error', {
+    document.dispatchEvent(new window.CustomEvent('cart:error', {
       detail: {
         error,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return error;
   });
 }
@@ -171,22 +161,18 @@ export function updateItem(data) {
   }).then((response) => {
     return response.json();
   }).then((json) => {
-    const cartEvent = new window.CustomEvent('cart:change', {
+    document.dispatchEvent(new window.CustomEvent('cart:change', {
       detail: {
         json,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return json;
   }).catch((error) => {
-    const cartEvent = new window.CustomEvent('cart:error', {
+    document.dispatchEvent(new window.CustomEvent('cart:error', {
       detail: {
         error,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return error;
   });
 }
@@ -213,13 +199,11 @@ export function clearItems() {
   }).then((response) => {
     return response.json();
   }).then((json) => {
-    const cartEvent = new window.CustomEvent('cart:clear', {
+    document.dispatchEvent(new window.CustomEvent('cart:clear', {
       detail: {
         json,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return json;
   });
 }
@@ -257,13 +241,11 @@ export function getShippingRates(address) {
   }).then((response) => {
     return response.json();
   }).then((json) => {
-    const cartEvent = new window.CustomEvent('cart:get:rates', {
+    document.dispatchEvent(new window.CustomEvent('cart:get:rates', {
       detail: {
         json,
       },
-    });
-
-    document.dispatchEvent(cartEvent);
+    }));
     return json;
   });
 }
